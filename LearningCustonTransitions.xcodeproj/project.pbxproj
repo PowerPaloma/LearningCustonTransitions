@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		BEC95D352114EB4F00DFE800 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC95D342114EB4F00DFE800 /* AppDelegate.swift */; };
-		BEC95D372114EB4F00DFE800 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC95D362114EB4F00DFE800 /* ViewController.swift */; };
 		BEC95D3A2114EB4F00DFE800 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC95D382114EB4F00DFE800 /* Main.storyboard */; };
 		BEC95D3C2114EB5100DFE800 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC95D3B2114EB5100DFE800 /* Assets.xcassets */; };
 		BEC95D3F2114EB5100DFE800 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC95D3D2114EB5100DFE800 /* LaunchScreen.storyboard */; };
+		BEC95D492114ECB500DFE800 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC95D482114ECB500DFE800 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BEC95D312114EB4F00DFE800 /* LearningCustonTransitions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningCustonTransitions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC95D342114EB4F00DFE800 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BEC95D362114EB4F00DFE800 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BEC95D392114EB4F00DFE800 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEC95D3B2114EB5100DFE800 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEC95D3E2114EB5100DFE800 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEC95D402114EB5100DFE800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEC95D482114ECB500DFE800 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				BEC95D342114EB4F00DFE800 /* AppDelegate.swift */,
-				BEC95D362114EB4F00DFE800 /* ViewController.swift */,
 				BEC95D382114EB4F00DFE800 /* Main.storyboard */,
 				BEC95D3B2114EB5100DFE800 /* Assets.xcassets */,
 				BEC95D3D2114EB5100DFE800 /* LaunchScreen.storyboard */,
 				BEC95D402114EB5100DFE800 /* Info.plist */,
+				BEC95D482114ECB500DFE800 /* TableViewController.swift */,
 			);
 			path = LearningCustonTransitions;
 			sourceTree = "<group>";
@@ -135,8 +135,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEC95D372114EB4F00DFE800 /* ViewController.swift in Sources */,
 				BEC95D352114EB4F00DFE800 /* AppDelegate.swift in Sources */,
+				BEC95D492114ECB500DFE800 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
