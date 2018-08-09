@@ -10,7 +10,10 @@ import UIKit
 
 class TableViewController: UITableViewController {
     
+    
+    let transitionTableView1 = TransitionTableView1()
     let transitions = ["Transitions in Collection", "Transitions in Buttons", "Transitions in Navigation Controller"]
+    let transitionsDurations = [1.0, 1.5, 2.0]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,6 +42,15 @@ class TableViewController: UITableViewController {
     }
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return "Transitions"
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if indexPath.row == 0 {
+            let detailsView = storyboard!.instantiateViewController(withIdentifier: "CollectionViewController") as! CollectionViewController
+            detailsView.transitioningDelegate = self
+            present(detailsView, animated: true, completion: nil)
+        }
+        
     }
 
 
@@ -88,3 +100,12 @@ class TableViewController: UITableViewController {
     */
 
 }
+
+extension TableViewController: UIViewControllerTransitioningDelegate {
+    
+    
+    
+}
+
+    
+    

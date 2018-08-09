@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE750A28211CB50D00948A63 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE750A27211CB50D00948A63 /* CollectionViewController.swift */; };
+		BE750A2A211CC7BF00948A63 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE750A29211CC7BF00948A63 /* DetailsViewController.swift */; };
+		BE750A2C211CCAFC00948A63 /* TransitionTableView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE750A2B211CCAFC00948A63 /* TransitionTableView1.swift */; };
 		BEC95D352114EB4F00DFE800 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC95D342114EB4F00DFE800 /* AppDelegate.swift */; };
 		BEC95D3A2114EB4F00DFE800 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC95D382114EB4F00DFE800 /* Main.storyboard */; };
 		BEC95D3C2114EB5100DFE800 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC95D3B2114EB5100DFE800 /* Assets.xcassets */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE750A27211CB50D00948A63 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		BE750A29211CC7BF00948A63 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		BE750A2B211CCAFC00948A63 /* TransitionTableView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionTableView1.swift; sourceTree = "<group>"; };
 		BEC95D312114EB4F00DFE800 /* LearningCustonTransitions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningCustonTransitions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC95D342114EB4F00DFE800 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEC95D392114EB4F00DFE800 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -35,6 +41,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE750A26211CB4C300948A63 /* CollectionView1 */ = {
+			isa = PBXGroup;
+			children = (
+				BE750A27211CB50D00948A63 /* CollectionViewController.swift */,
+				BE750A29211CC7BF00948A63 /* DetailsViewController.swift */,
+			);
+			path = CollectionView1;
+			sourceTree = "<group>";
+		};
+		BE750A2D211CCB0800948A63 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				BE750A2B211CCAFC00948A63 /* TransitionTableView1.swift */,
+			);
+			path = Transitions;
+			sourceTree = "<group>";
+		};
 		BEC95D282114EB4F00DFE800 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +77,8 @@
 		BEC95D332114EB4F00DFE800 /* LearningCustonTransitions */ = {
 			isa = PBXGroup;
 			children = (
+				BE750A2D211CCB0800948A63 /* Transitions */,
+				BE750A26211CB4C300948A63 /* CollectionView1 */,
 				BEC95D342114EB4F00DFE800 /* AppDelegate.swift */,
 				BEC95D382114EB4F00DFE800 /* Main.storyboard */,
 				BEC95D3B2114EB5100DFE800 /* Assets.xcassets */,
@@ -135,8 +160,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE750A28211CB50D00948A63 /* CollectionViewController.swift in Sources */,
+				BE750A2C211CCAFC00948A63 /* TransitionTableView1.swift in Sources */,
 				BEC95D352114EB4F00DFE800 /* AppDelegate.swift in Sources */,
 				BEC95D492114ECB500DFE800 /* TableViewController.swift in Sources */,
+				BE750A2A211CC7BF00948A63 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
